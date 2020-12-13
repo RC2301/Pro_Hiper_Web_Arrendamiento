@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(0, 238, 255);
+}
+#button {
+  padding: 10px;
+}
+
+#button li {
+  display: inline;
+}
+
+#button li a {
+  font-family: Arial;
+  font-size: 11px;
+  text-decoration: none;
+
+  padding: 10px;
+  background-color: #2175bc;
+  color: #fff;
+}
+
+#button li a:hover {
+  background-color: #2586d7;
+  margin-top: -2;
+  padding-bottom: 15px;
+}
+.logo {
+  background-color: rgb(229, 206, 245);
+  width: 400px;
+  border-radius: 10px;
+}
