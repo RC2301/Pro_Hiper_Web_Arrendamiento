@@ -1,72 +1,112 @@
 * {
-	margin:0;
-	padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background:#f2f2f2;
+  background: rgb(0, 238, 255);
+}
+
+#button {
+  padding: 10px;
+}
+
+#button li {
+  display: inline;
+}
+
+#button li a {
+  font-family: Arial;
+  font-size: 11px;
+  text-decoration: none;
+  
+  padding: 10px;
+  background-color: #2175bc;
+  color: #fff;
+}
+
+#button li a:hover {
+  background-color: #2586d7;
+  margin-top: -2;
+  padding-bottom: 15px;
 }
 
 .main {
-	width:90%;
-	max-width:1000px;
-	margin:20px auto;
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: crimson;
+}
+
+.info p {
+  width: 300px;
+  height: 90;
+  background-color: crimson;
+}
+
+.info {
+  padding: 5px;
+  background-color: black;
 }
 
 .slides {
-	width:100%;
+  width: 100%;
+  padding: 5px;
+  position: relative;
 }
 
 .slides img {
-	height:100%;
+  height: 100%;
 }
 
 .slidesjs-pagination {
-	background:#424242;
-	list-style:none;
-	overflow:hidden;
+  background: #424242;
+  list-style: none;
+  overflow: hidden;
 }
 
 .slidesjs-pagination li {
-	float:left;
+  float: left;
 }
 
 .slidesjs-pagination li a {
-	display:block;
-	padding:10px 20px;
-	color:#fff;
-	text-decoration:none;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .slidesjs-pagination li a:hover {
-	background:#000;
+  background: #000;
 }
 
 .slides .active {
-	background:#000;
+  background: #000;
 }
 
 .icon-play3:before {
-    content: "\ea1c";
-  }
+  content: "\ea1c";
+}
 
-  .icon-pause2:before {
-    content: "\ea1d";
-  }
+.icon-pause2:before {
+  content: "\ea1d";
+}
 
-  .icon-circle-right:before {
-    content: "\ea42";
-  }
+.icon-circle-right:before {
+  content: "\ea42";
+}
 
-  .icon-circle-left:before {
-    content: "\ea44";
-  }
+.icon-circle-left:before {
+  content: "\ea44";
+}
 
-.slidesjs-navigation{
-	background:#000;
-	color:#fff;
-	text-decoration:none;
-	display:inline-block;
-	padding:11px 20px;
-	float:right;
+.slidesjs-navigation {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 11px 20px;
+  float: right;
 }
