@@ -78,7 +78,7 @@ footer{
   margin-left: 15%;
 }
 
-.templatemo_contactform input, textarea {
+.templatemo_contactform input, textarea,select {
   width: 100%;
   background: #282828;
   border: 1px solid #393939;
@@ -110,4 +110,32 @@ footer{
   padding: 3%;
   background-color: rgba(142, 68, 173, 0.2);
   border-radius: 3%;
+}
+.whats{
+  width: 60%;
+  margin: 100px;
+  padding: 3%;
+  background-color: rgba(142, 68, 173, 0.2);
+  border-radius: 3%;
+}
+.btnwtsp{
+  background: #08108a;
+  border: none;
+  border-radius: 0px;
+  color: #ffffff;
+  font-weight: 800;
+  width: 100%;
+  height: 40px;
+}
+.btnwtsp:hover {
+  background: #fffb00;
+  color: #000000;
+}
+.whats input, textarea {
+  width: 100%;
+  background: #282828;
+  border: 1px solid #393939;
+  padding: 7px 10px;
+  margin: 0px 0px 10px 0px;
+  background-color: #FAFAFA;
 }
