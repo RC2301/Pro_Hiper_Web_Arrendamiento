@@ -5,7 +5,14 @@
 }
 
 body {
-  background: rgb(0, 238, 255);
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    #AFEEEE 0,
+    #7FFFD4 25%,
+    #40E0D0 50%,
+    #48D1CC 75%,
+    #00CED1 100%
+  );
 }
 #button {
   padding: 10px;
@@ -31,7 +38,24 @@ body {
   padding-bottom: 15px;
 }
 .logo {
-  background-color: rgb(229, 206, 245);
+  background-color: #fff;
   width: 400px;
   border-radius: 10px;
+}
+.logo:hover{
+  width: 450px;
+  height: 125px;
+}
+.principal{
+  padding: 1%;
+  margin: 20px;
+  width: 70%;
+  background-color: rgba(142, 68, 173, 0.2);
+  border-radius: 3%;
+}
+footer{
+  padding: 1%;
+  width: 70%;
+  background-color: rgba(142, 68, 173, 0.2);
+  border-radius: 3%;
 }
