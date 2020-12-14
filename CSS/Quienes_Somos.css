@@ -69,3 +69,80 @@ footer{
   background-color: rgba(142, 68, 173, 0.2);
   border-radius: 3%;
 }
+.main {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #483D8B;
+}
+.slides p {
+  width: 97%;
+  height: 350px;
+  margin: 5px;
+  padding: 20px;
+  background-color: rgb(235, 191, 200);
+}
+
+.info {
+  width: 70%;
+  padding: 5px;
+  background-color: #483D8B;
+}
+
+.slides {
+  width: 100%;
+  padding: 5px;
+  position: relative;
+}
+
+.slidesjs-pagination {
+  background: #424242;
+  list-style: none;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li {
+  float: left;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover {
+  background: #000;
+}
+
+.slides .active {
+  background: #000;
+}
+
+.icon-play3:before {
+  content: "\ea1c";
+}
+
+.icon-pause2:before {
+  content: "\ea1d";
+}
+
+.icon-circle-right:before {
+  content: "\ea42";
+}
+
+.icon-circle-left:before {
+  content: "\ea44";
+}
+
+.slidesjs-navigation {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+
+  padding: 13.5px 20px;
+  float: right;
+}
